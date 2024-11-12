@@ -1,0 +1,56 @@
+/* MyProfile.css */
+
+/* Container for the profile component */
+.profile-container {
+    max-width: 600px; /* Set a maximum width for the profile section */
+    margin: 20px auto; /* Center the profile section */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Round the corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Headings */
+.profile-container h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Labels for input fields */
+.profile-container label {
+    font-weight: bold; /* Bold labels */
+    margin-top: 10px; /* Space above labels */
+}
+
+/* Input fields */
+.profile-container input[type="text"],
+.profile-container input[type="email"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    margin: 5px 0 20px; /* Margin around the input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Paragraph for displaying user data */
+.profile-container p {
+    margin: 5px 0 20px; /* Space below paragraphs */
+    font-size: 1rem; /* Font size */
+}
+
+/* Buttons */
+.profile-container button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+/* Button hover effect */
+.profile-container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
